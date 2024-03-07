@@ -1,0 +1,72 @@
+body {
+  padding: 0 30px;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Arial", sans-serif;
+  color: #222222;
+  background: #ffffff url('../img/bg-page.png') no-repeat top center;
+  background-size: 100%;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: normal;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: normal;
+}
+
+a {
+  color: #0099ef;
+  text-decoration: underline;
+}
+
+.avatar {
+  border-radius: 50%;
+  /*color: #ffffff;*/
+}
+
+
+.blog-navigation {
+  margin-bottom: 30px;
+  background-color: #4470c4;
+  padding: 20px;
+  color: #ffffff;
+  border: 5px solid #2d508f;
+}
+
+
+.blog-navigation a {
+  color: #ffffff;
+}
+
+.blog-navigation ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills dd{
+  background-color: #e8e8e8;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.skills-level{
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #4470c4;
+
+}
+
+.skills-level-ok{
+  background-color: #47bb52;
+
+}
+
+footer {
+  margin-top: 30px;
+}
+/*<img class="userim" src="img/icons/user.png" alt="no"></a>*/

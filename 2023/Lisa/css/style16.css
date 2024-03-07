@@ -1,0 +1,39 @@
+body {
+  width: 550px;
+  margin: 0;
+  padding: 0 10px;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+p{
+  background-color: #333333;
+  color: white;
+  padding:20px;
+}
+
+a{
+  color: orange;
+}
+
+img{
+  border-radius: 10%;
+}
+
+img:hover{
+   outline: 3px solid orange;
+}
+
+.gallery{
+  position:relative;
+  justify-content: space-evenly ;
+  display: flex
+}
+.new{
+  top: 0;
+}

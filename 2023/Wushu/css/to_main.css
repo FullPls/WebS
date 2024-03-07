@@ -1,0 +1,114 @@
+body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+}
+span{
+	display: flex;
+}
+
+h2{
+	text-align: center;
+	text-transform: uppercase;
+	font: normal 30px/30px Impact;
+    color: #6b6b6b;
+}
+
+h4{
+	text-align: center;	
+}
+
+h5{
+	text-align: center;	
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+/*.soso {
+     display: flow;
+     max-width: 866px;
+     align-items: center;
+     justify-content: space-between;
+
+}
+
+.social {
+     display: flex;
+     width: 150px;
+     align-items: center;
+     justify-content: space-around;
+}
+
+.with{
+     height: 25px; 
+     transition: all 0.25s ease-in-out;
+}
+
+.vk{
+     height: 50px; 
+     transition: all 0.25s ease-in-out;
+     opacity: 0.6;
+}
+
+.vk:hover {
+     transform: scale(1.15);
+     opacity: 1;
+}
+
+
+.legal{   
+     height: 42px;
+     max-width: 866px;
+     font-size: 12px;
+     line-height: 1.4;
+     color: #000;
+}*/
+
+.allchest{
+	height: flex;
+	min-height: 727px;
+}
+
+.chest .container{
+	height: flex;
+	max-width: 990px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.upperchest .container{
+	height: 300px;
+	width: 990px;
+	display: flex;
+	position: relative;
+/*	align-items: center;*/
+}
+.inf{
+	height: inherit;
+	max-width: 500px;
+	vertical-align: middle;
+}
+
+.obj{
+	width: 150px;
+}
+
+.partners{
+	width: 150px;
+}
+
+.partnersIMG{
+	height: 50px;
+	transition: all 0.25s ease-in-out;
+}
+
+.partnersIMG:hover{
+	height: 50px;
+	transform: scale(1.15);
+}
+
