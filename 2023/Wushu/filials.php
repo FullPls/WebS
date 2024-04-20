@@ -4,12 +4,13 @@
 		<title>Федерация ушу Алтайского края</title>
 		<meta http-equiv="Contetn-type"content="text/html;charset=UTF8"/>
 		<link rel="shortcut icon" href="img/icons/logo16.png" type="image/png">
-		<link rel="stylesheet" href="css/to_filial.css">
+		<link rel="stylesheet" href="css/to_test.css">
 		<link rel="stylesheet" href="css/headfoot.css">
 		<link rel="stylesheet" href="libs/bootstrap-reboot.min.css">
 
 	<!-- Bootstrap сетка -->
 		<link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
 	<!-- Шрифты с Google Fonts -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -26,23 +27,48 @@
 				<div class="filialnum">
 					<h2>Филиалы</h2>
 					<ul>
-						<li>
-							<a target="_blank" title="Открыть в 2Гис" href="https://2gis.ru/barnaul/geo/563585608583755/83.679127%2C53.356903?m=83.679388%2C53.35657%2F17.65">г.Барнаул, ул.Ленинградская, 7б</a>
+						<li id="btn1" class="filbutton">
+							<a target="_blank" title="Открыть в 2Гис" >г.Барнаул, ул.Ленинградская, 7б</a>
+						</li>
+						<li id="btn2" class="filbutton">
+							<a target="_blank" title="Открыть в 2Гис" >г.Барнаул, ул.Геблера, 33б</a>
+						</li>
+						<li id="btn3" class="filbutton">
+							<a target="_blank" title="Открыть в 2Гис" >г.Барнаул, пр. Красноармейский, 59а</a>
 						</li>
 						<li>
-							<a target="_blank" title="Открыть в 2Гис" href="https://2gis.ru/barnaul/firm/563478234471418?m=83.77261%2C53.343243%2F18">г.Барнаул, ул.Геблера, 33б</a>
-						</li>
-						<li>
-							<a target="_blank" title="Открыть в 2Гис" href="https://2gis.ru/barnaul/geo/563585608581289?m=83.771937%2C53.336548%2F16.7">г.Барнаул, пр. Красноармейский, 59а</a>
-						</li>
-						<li>
-							<a target="_blank" title="Открыть в 2Гис" href="https://2gis.ru/barnaul/firm/563478234412891?m=83.7946%2C53.330047%2F18">г.Барнаул, ул.Мало-Табольская, 28</a>
+							<a target="_blank" title="Открыть в 2Гис" >г.Барнаул, ул.Мало-Табольская, 28</a>
 						</li>
 					</ul>
 				</div>
 				<div class="photos">
-					<h2>Фотография филиала</h2>
-					<img class="fil_photo" src="img/filials/horizon.jpg" alt="no">
+					<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+		  <div class="carousel-indicators">
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		  </div>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img id="img1" src="img/filials/horizon.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img id="img2" src="img/filials/horizon2.jpg" class="d-block w-100" alt="...">
+		    </div>
+		    <div class="carousel-item">
+		      <img id="img3" src="img/filials/horizon3.jpg" class="d-block w-100" alt="...">
+		    </div>
+		  </div>
+		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Previous</span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Next</span>
+		  </button>
+		</div>
+
 				</div>
 			</div>
 
@@ -60,8 +86,47 @@
 			</div>
 		</div>
 
+
 		<br>
 		<?php require 'tpl/footer.php';?>	
 
+		<script>
+			  
+let img=document.getElementById("img1");
+let imageList1 = ["img/filials/horizon.jpg",
+	"img/filials/horizon2.jpg",
+	"img/filials/horizon3.jpg"],
+	imageList2 = ["img/filials/Malotob.jpg",
+	"img/filials/elans.jpg",
+	"img/filials/Malotob.jpg"
+	],
+	imageList3 = ["img/filials/horizon.jpg",
+	"img/filials/horizon2.jpg",
+	"img/filials/horizon3.jpg"],
+	 age = 0;
+
+btn1.select = btn1.onclick;
+btn1.onclick=function(){
+	
+	img1.src = imageList1[0];
+	img2.src = imageList1[1];
+	img3.src = imageList1[2];
+}
+btn2.onclick=function(){
+	
+	img1.src = imageList2[0];
+	img2.src = imageList2[1];
+	img3.src = imageList2[2];
+}
+btn3.onclick=function(){
+	
+	img1.src = imageList3[0];
+	img2.src = imageList3[1];
+	img3.src = imageList3[2];
+}
+	
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 	</body>
 </html>		

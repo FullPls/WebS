@@ -73,7 +73,10 @@ h5{
 	height: flex;
 	min-height: 727px;
 }
-
+.photos{
+     max-width:685px;
+     max-height: 550px;
+}
 .chest .container{
 	height: flex;
 	max-width: 990px;

@@ -68,21 +68,23 @@
 
 		<br>	
 		<div class="reg">
-			<div class="container mt-4">
-				<h2>Авторизация</h2>
-				<form  class="form-signin" method="POST">
-					<input type="text" class="form-control" name="username" id="username" placeholder="Введите адрес электронной почты" required>	
-					<br>
-					<input type="password" class="form-control" name="pass" id="pass" placeholder="Введите пароль" required>	
-					<br>
-					<div class="buttons">
-						<button class="btn btn-success" type="submit">Войти</button>
-					<br>
-							<p>Нет аккаунта? - <a href="registration.php">Зарегистрируйтесь!</a></p>
-					</div>
-				</form>
+			<div class="field">
+				<div class="container mt-4">
+					<h2>Авторизация</h2>
+					<form  class="form-signin" method="POST">
+						<input type="text" class="form-control" name="username" id="username" placeholder="Введите адрес электронной почты" required>	
+						<br>
+						<input type="password" class="form-control" name="pass" id="pass" placeholder="Введите пароль" required>	
+						<br>
+						<div class="buttons">
+							<button class="btn btn-success" type="submit">Войти</button>
+						<br>
+						<br>
+								<p>Нет аккаунта? - <a href="registration.php">Зарегистрируйтесь!</a></p>
+						</div>
+					</form>
+				</div>
 			</div>
-			
 		</div>
 		
 		<?php require 'tpl/footer.php';?>	

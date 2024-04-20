@@ -107,14 +107,12 @@ body {
      opacity: 1;
 }
 
-.footbar-menu {
-     list-style-type: none;
-     padding-left: 0;
-     margin-bottom: 0;
-}
+
 
 .footbar-menu li {
-     display: inline-block;   
+     display: inline-block; 
+       justify-content: space-between;
+       margin: 10px;
 }
 
 .footbar-menu li a {
@@ -131,13 +129,6 @@ body {
      border-radius: 100px;
      transform: scale(1.04);
      box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
-}
-
-.footbar-wrap {
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-
 }
 
 .soso {

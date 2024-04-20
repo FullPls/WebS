@@ -28,7 +28,6 @@ h5{
 }
 
 /*-----------------------------------------------------------------------------------*/
-
 .chestfilial{
      height: flex;
      min-height: 727px;
@@ -48,24 +47,32 @@ h5{
 .filialnum{
      width: 305px;
      height: 550px;  
+
 }
 
 .filialnum li {
      display: inline-block;   
 }
+.filialnum ul {
+     padding-left: 0;
+}
 
 .filbutton a {
-     display: inline-block;   
+     display: inline-block;  
+   
+     width: 285px;
      color: #000;
      opacity: 0.6;
      text-decoration: none;
      padding: 10px;
      transition: all .07s ease-in-out;
+     border-radius: 100px;
 
 }
 
 .filbutton a:hover{
      opacity: 1;
+     background-color: grey; 
      border-radius: 100px;
      transform: scale(1.04);
      box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
