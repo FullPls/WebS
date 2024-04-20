@@ -1,0 +1,166 @@
+body {
+     position: relative;
+     font-family: 'Noto Sans', sans-serif;
+     font-size: 16px;
+     line-height: 1.4;
+     color: #000;
+     min-width: 320px;
+     overflow-x: hidden;
+     height: auto;
+}
+span{
+     display: flex;
+}
+
+h2{
+     text-align: center;
+     text-transform: uppercase;
+     font: normal 30px/30px Impact;
+    color: #6b6b6b;
+}
+
+h3 {
+     text-align: center;
+/*     font: normal 30px/30px Impact;*/
+     color:black ;  
+}
+
+h4{
+     text-align: center; 
+}
+
+h5{
+     text-align: center; 
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+.news{
+     min-height: 727px;
+}
+
+.news .container{
+     height: flex;
+     width: 990px;
+}
+
+.tablebox{
+     width:inherit;
+     height: 150px;
+     display: flex;
+     transition: all 0.25s ease-in-out;
+}
+
+.tablebox:hover{
+      transform: scale(1.15);
+     opacity: 1;
+}
+
+.ds{
+     height: inherit;
+     width: 150px;
+}
+
+.text{
+     height: inherit;
+     width: 850px;
+}
+
+.tablebox{
+     display: flow;
+}
+
+.logo{
+     width: 125px;
+     height: 125px;
+     border-radius: 5%;
+}
+
+.newstext{
+     list-style-type: none;
+     padding: 10px;  
+     font-size: 14px;
+}
+
+.row{
+    display: flex;
+    justify-content: left;
+    padding-left: 190px;
+}
+
+
+
+.cart .disabled,  .disabled{
+    opacity: 50%;
+}
+
+.page, .total-pages{
+    background-color: white; 
+}
+ .col-6 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+ .col-6 span{
+    margin-left: -110px;
+    font-size: 50px;
+    font-weight:300;
+}
+
+ .col-6 .menu-but{
+    height:30px;
+    width:30px;
+    background-color: white;
+    border:none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-6 ion-icon{
+    width:inherit;
+    height: inherit;
+}
+
+.col-1{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.but{
+    background-color:white;
+    border:none;
+    margin: 4px;
+}
+
+.col-1 .page, .col-1 .total-pages{
+    margin: 3px;
+    width:15px;
+    border: none;
+    text-align: center;
+}
+
+.text {
+  background: white;
+  padding: 1rem;
+  width: 100%;
+  height: 125px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+}
+ 
+.text:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(180deg, transparent, white 50%);
+}

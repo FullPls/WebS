@@ -1,0 +1,105 @@
+body {
+     position: relative;
+     font-family: 'Noto Sans', sans-serif;
+     font-size: 16px;
+     line-height: 1.4;
+     color: #000;
+     min-width: 320px;
+     overflow-x: hidden;
+     height: auto;
+}
+span{
+     display: flex;
+}
+
+h2{
+     text-align: center;
+     text-transform: uppercase;
+     font: normal 30px/30px Impact;
+    color: #6b6b6b;
+}
+
+h4{
+     text-align: center; 
+}
+
+h5{
+     text-align: center; 
+}
+
+/*-----------------------------------------------------------------------------------*/
+.chestfilial{
+     height: flex;
+     min-height: 727px;
+/*     position: relative;*/
+/*     display: flex;*/
+     justify-content: space-evenly ;
+}
+
+.chestfilial .container{
+     height: flex;
+     width: 990px;
+     display: flex;
+     flex-wrap: nowrap;
+
+}
+
+.filialnum{
+     width: 305px;
+     height: 550px;  
+
+}
+
+.filialnum li {
+     display: inline-block;   
+}
+.filialnum ul {
+     padding-left: 0;
+}
+
+.filbutton a {
+     display: inline-block;  
+   
+     width: 285px;
+     color: #000;
+     opacity: 0.6;
+     text-decoration: none;
+     padding: 10px;
+     transition: all .07s ease-in-out;
+     border-radius: 100px;
+
+}
+
+.filbutton a:hover{
+     opacity: 1;
+     background-color: grey; 
+     border-radius: 100px;
+     transform: scale(1.04);
+     box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+}
+
+.photos{
+     max-width:685px;
+     max-height: 550px;
+}
+
+.fil_photo{
+     max-width: inherit;
+     max-height: 500px;
+}
+
+.onmap{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.filbutton{
+     display: inline-block;   
+     color: #000;
+     opacity: 0.6;
+     text-decoration: none;
+     padding: 10px;
+     transition: all .07s ease-in-out;
+}
