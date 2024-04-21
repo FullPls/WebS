@@ -1,11 +1,12 @@
 
 /*-----------------------------------------------------------------------------------*/
-
 .reg{
      min-height: 727px;
+     align-items: center;
 }
 
 .reg .container {
+     border-color: black;
      height: flex;
      width: 450px;
 }
@@ -18,4 +19,3 @@
      transition: all .07s ease-in-out;
      transform: scale(1.04);
 }
-
