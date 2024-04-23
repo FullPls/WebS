@@ -109,6 +109,18 @@
 							<script charset="utf-8">new DGWidgetLoader({"width":900,"height":400,"borderColor":"#a3a3a3","pos":{"lat":53.336472496187405,"lon":83.77077341079713,"zoom":16},"opt":{"city":"barnaul"},"org":[{"id":"70000001064876798"}]});</script>
 							<noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
 					</div>
+					<div id="show4" style="display: none;" > 
+						<a class="dg-widget-link" href="http://2gis.ru/barnaul/firm/563478234412891/center/83.79422664642335,53.33050136460048/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Барнаула</a>
+							<div class="dg-widget-link">
+								<a href="http://2gis.ru/barnaul/firm/563478234412891/photos/563478234412891/center/83.79422664642335,53.33050136460048/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии компании</a>
+							</div>
+							<div class="dg-widget-link">
+								<a href="http://2gis.ru/barnaul/center/83.794229,53.330027/zoom/16/routeTab/rsType/bus/to/83.794229,53.330027╎1000 мелочей, торговый центр?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти проезд до 1000 мелочей, торговый центр</a>
+							</div>
+							<script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script>
+							<script charset="utf-8">new DGWidgetLoader({"width":900,"height":400,"borderColor":"#a3a3a3","pos":{"lat":53.33050136460048,"lon":83.79422664642335,"zoom":16},"opt":{"city":"barnaul"},"org":[{"id":"563478234412891"}]});</script>
+							<noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
+					</div>
 			</div>	
 		</div>
 
@@ -120,18 +132,19 @@
 let imageList1 = ["img/filials/horizon.jpg",
 	"img/filials/horizon2.jpg",
 	"img/filials/horizon3.jpg"],
-	imageList2 = ["img/filials/Malotob.jpg",
-	"img/filials/elans.jpg",
-	"img/filials/Malotob.jpg"
-	],
-	imageList3 = ["img/filials/horizon.jpg",
-	"img/filials/horizon2.jpg",
-	"img/filials/horizon3.jpg"];
-	imageList4 = ["img/filials/",
-	"img/filials/",
-	"img/filialsg"];
 
-btn1.select = btn1.onclick;
+	imageList2 = ["img/filials/elans.jpg",
+	"img/filials/elans.jpg",
+	"img/filials/elans.jpg"],
+
+	imageList3 = ["img/filials/Tikara.jpg",
+	"img/filials/Tikara2.jpg",
+	"img/filials/Tikara.jpg"],
+
+	imageList4 = ["img/filials/Malotob.jpg",
+	"img/filials/Malotob.jpg",
+	"img/filials/Malotob.jpg"];
+
 btn1.onclick=function(){
 	document.getElementById("show1").style.display='block';
 	document.getElementById("show2").style.display='none';
