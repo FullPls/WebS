@@ -28,29 +28,33 @@ h5{
 }
 
 /*-----------------------------------------------------------------------------------*/
+
 .chestfilial{
+     height: flex;
      min-height: 727px;
-     align-items: center;
+/*     position: relative;*/
+/*     display: flex;*/
+     justify-content: space-evenly ;
 }
 
 .chestfilial .container{
      height: flex;
      width: 990px;
-     position: inherit;
-     align-items: center;
-     justify-content: space-between;
+     display: flex;
+     flex-wrap: nowrap;
+
 }
 
 .filialnum{
-     width: inherit;
-     height: inherit;  
+     width: 305px;
+     height: 550px;  
 }
 
 .filialnum li {
      display: inline-block;   
 }
 
-.filialnum li a {
+.filbutton a {
      display: inline-block;   
      color: #000;
      opacity: 0.6;
@@ -60,14 +64,35 @@ h5{
 
 }
 
-.filialnum li a:hover{
+.filbutton a:hover{
      opacity: 1;
      border-radius: 100px;
      transform: scale(1.04);
      box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
 }
 
-.fil_photo{
-     width: 685px;
+.photos{
+     max-width:685px;
+     max-height: 550px;
+}
 
+.fil_photo{
+     max-width: inherit;
+     max-height: 500px;
+}
+
+.onmap{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.filbutton{
+     display: inline-block;   
+     color: #000;
+     opacity: 0.6;
+     text-decoration: none;
+     padding: 10px;
+     transition: all .07s ease-in-out;
 }

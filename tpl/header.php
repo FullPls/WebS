@@ -5,7 +5,6 @@
 				<div class="headbar-wrap">
 					<ul class="headbar-menu">
 						<li><a href="http://localhost/WebS/Wushu/main.php">Главная страница</a></li>
-						<li><a href="http://localhost/WebS/Wushu/main.php">О нас</a></li>
 						<li><a href="http://localhost/WebS/Wushu/news.php">Новости</a></li>
 						<li><a href="http://localhost/WebS/Wushu/translations.php">Трансляции</a></li>
 						<li><a href="http://localhost/WebS/Wushu/shop.php">Магазин</a></li>

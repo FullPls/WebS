@@ -34,6 +34,9 @@
 						<li id="btn3" class="filbutton" >
 							<a >г.Барнаул, пр. Красноармейский, 59а</a>
 						</li>
+						<li id="btn4" class="filbutton" >
+							<a >г.Барнаул, ул. Мало-Табольская, 28</a>
+						</li>
 					</ul>
 				</div>
 				<div class="photos">
@@ -108,17 +111,12 @@
 					</div>
 			</div>	
 		</div>
-		
-
 
 		<br>
+		
 		<?php require 'tpl/footer.php';?>	
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 
 	<script>		  
-let show=document.getElementById("show");
-let img=document.getElementById("img1");
 let imageList1 = ["img/filials/horizon.jpg",
 	"img/filials/horizon2.jpg",
 	"img/filials/horizon3.jpg"],
@@ -128,21 +126,17 @@ let imageList1 = ["img/filials/horizon.jpg",
 	],
 	imageList3 = ["img/filials/horizon.jpg",
 	"img/filials/horizon2.jpg",
-	"img/filials/horizon3.jpg"],
-	 age = 0;
-	mapList1=["http://2gis.ru/barnaul/firm/70000001022401449/center/83.67350578308107,53.36043830302833/zoom/15?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap",
-		"http://2gis.ru/barnaul/firm/70000001022401449/photos/70000001022401449/center/83.67350578308107,53.36043830302833/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos",
-		"http://2gis.ru/barnaul/center/83.678885,53.356931/zoom/15/routeTab/rsType/bus/to/83.678885,53.356931╎Федерация Ушу Алтайского края?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route"];
-
-	mapList2=["http://2gis.ru/barnaul/firm/563478234471418/center/83.77255439758301,53.34336516649935/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap",
-		"http://2gis.ru/barnaul/firm/563478234471418/photos/563478234471418/center/83.77255439758301,53.34336516649935/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos",
-		"http://2gis.ru/barnaul/center/83.772552,53.343119/zoom/16/routeTab/rsType/bus/to/83.772552,53.343119╎Эланс, спортивный центр?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route"];
+	"img/filials/horizon3.jpg"];
+	imageList4 = ["img/filials/",
+	"img/filials/",
+	"img/filialsg"];
 
 btn1.select = btn1.onclick;
 btn1.onclick=function(){
 	document.getElementById("show1").style.display='block';
 	document.getElementById("show2").style.display='none';
 	document.getElementById("show3").style.display='none';
+	document.getElementById("show4").style.display='none';
 	img1.src = imageList1[0];
 	img2.src = imageList1[1];
 	img3.src = imageList1[2];
@@ -151,6 +145,7 @@ btn2.onclick=function(){
 	document.getElementById("show1").style.display='none';
 	document.getElementById("show2").style.display='block';
 	document.getElementById("show3").style.display='none';
+	document.getElementById("show4").style.display='none';
 	img1.src = imageList2[0];
 	img2.src = imageList2[1];
 	img3.src = imageList2[2];
@@ -159,9 +154,19 @@ btn3.onclick=function(){
 	document.getElementById("show1").style.display='none';
 	document.getElementById("show2").style.display='none';
 	document.getElementById("show3").style.display='block';
+	document.getElementById("show4").style.display='none';
 	img1.src = imageList3[0];
 	img2.src = imageList3[1];
 	img3.src = imageList3[2];
+}
+btn4.onclick=function(){
+	document.getElementById("show1").style.display='none';
+	document.getElementById("show2").style.display='none';
+	document.getElementById("show3").style.display='none';
+	document.getElementById("show4").style.display='block';
+	img1.src = imageList4[0];
+	img2.src = imageList4[1];
+	img3.src = imageList4[2];
 }
 		</script>
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
