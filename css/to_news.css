@@ -67,7 +67,7 @@ h5{
 }
 
 .tablebox{
-     display: flow;
+     display: flex;
 }
 
 .logo{
@@ -88,8 +88,6 @@ h5{
     padding-left: 190px;
 }
 
-
-
 .cart .disabled,  .disabled{
     opacity: 50%;
 }
@@ -97,6 +95,7 @@ h5{
 .page, .total-pages{
     background-color: white; 
 }
+
  .col-6 {
     display: flex;
     justify-content: left;

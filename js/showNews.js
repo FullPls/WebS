@@ -22,9 +22,6 @@ function renewNews(page){
 			products = response.split(']');
 
 			console.log(products);
-			
-			
-			
 							
 			for(let i = 0; i<products.length-1; i++){
 				products[i] = products[i].split('"');
@@ -36,8 +33,7 @@ function renewNews(page){
     			$('.tablebox:eq(0)').append('<div class="ds"><img src="'+img+'" alt="" class="logo"></div>');
         		$('.tablebox:eq(0)').append('<div class="text"></div>');
         			$('.text:eq(0)').append('<h5 class="t">'+nameNews+'</h3>');
-        				$('.t:eq(0)').append('<ul><li class="newstext">'+textNews+'</li></ul>');
-								
+        				$('.t:eq(0)').append('<ul><li class="newstext">'+textNews+'</li></ul>');					
 			}
 		}	
 	);
